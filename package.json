@@ -1,0 +1,27 @@
+{
+  "name": "webbundle",
+  "version": "1.0.0",
+  "description": "实现一个轻量级的webpack",
+  "main": "webbundle.config.js",
+  "bin": {
+    "webbundle": "webbuldle.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-webpack-practice/webbundle.git"
+  },
+  "keywords": [],
+  "author": "lizhigao <lizhigao1231@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/my-webpack-practice/webbundle/issues"
+  },
+  "homepage": "https://github.com/my-webpack-practice/webbundle#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
