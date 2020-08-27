@@ -1,5 +1,5 @@
 import { getRandomNum } from './ab';
-import { log } from './log';
+import { log } from './helpers/index';
 
 export function cube(x) {
   return x ** 3;
