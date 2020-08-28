@@ -12,4 +12,4 @@ export default function sum(a, b) {
 const r1 = getRandomNum();
 const r2 = getRandomNum();
 
-log(sum(r1, r2));
+log('[sum]', sum(r1, r2));

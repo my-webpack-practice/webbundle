@@ -7,7 +7,7 @@
     "webbundle": "./bin/webbundle.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node bin/webbundle"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/my-webpack-practice/webbundle#readme",
   "devDependencies": {
+    "terser": "^5.2.1",
+    "uglify-js": "^3.10.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },

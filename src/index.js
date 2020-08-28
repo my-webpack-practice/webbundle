@@ -1,7 +1,7 @@
 import sum from './sum';
-import { getRandomNum } from './ab';
-import { log } from './helpers/index';
+import ab, { getRandomNum } from './ab';
+import { log } from './helpers';
 
 const count = sum(getRandomNum(), getRandomNum());
 
-log(count);
+log('[index]', ab, count);
