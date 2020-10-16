@@ -1,5 +1,5 @@
 {
-  "name": "webbundle",
+  "name": "@cleam/webbundle",
   "version": "1.0.0",
   "description": "实现一个轻量级的webpack",
   "main": "webbundle.config.js",
